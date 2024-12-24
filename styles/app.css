@@ -1,0 +1,40 @@
+@import "./aside/aside.css";
+@import "./main/main.css";
+
+#app{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+
+  height: 100vh;
+  max-width: 1280px;
+  margin-inline: auto;
+
+  overflow: hidden;
+}
+
+main{
+  overflow: auto;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding: 5rem 8.125rem;
+  border-radius: 12px;
+
+  & .mainContainer{
+    color: white;
+    max-width: 35rem;
+    margin-right: auto;
+  }
+}
+
+aside{
+  margin-top: 20px;
+  width: 400px;
+  height: 732px;
+  border-radius: 12px;
+  position: relative;
+}
+
+
